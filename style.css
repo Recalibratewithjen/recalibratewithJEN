@@ -1,0 +1,579 @@
+/* General Reset and Body Styles */
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   font-family: 'Arial', sans-serif;
+   background-color: #f4f4f4;
+   color: #333;
+   line-height: 1.6;
+   padding: 0;
+   margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Georgia', serif;
+   color: #3b2a2a;
+}
+a {
+   text-decoration: none;
+   color: inherit;
+}
+/* Header Styles */
+header {
+   background: linear-gradient(135deg, #D2B48C, #F5F5F5);
+   color: #fff;
+   padding: 60px 20px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+header h1 {
+   font-size: 4em;
+   margin-bottom: 0.5em;
+   text-transform: uppercase;
+}
+header p {
+   font-size: 1.4em;
+   margin-bottom: 1.5em;
+}
+.cta-buttons {
+   display: flex;
+   gap: 20px;
+}
+.cta-button {
+   background-color: #3b2a2a;
+   color: #fff;
+   padding: 15px 25px;
+   font-size: 1.2em;
+   border-radius: 5px;
+   text-transform: uppercase;
+   transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+   background-color: #f1b56b;
+}
+/* Section Styles */
+section {
+   padding: 60px 20px;
+   text-align: center;
+}
+section h2 {
+   font-size: 2.5em;
+   color: #3b2a2a;
+   margin-bottom: 1em;
+}
+section p {
+   font-size: 1.2em;
+   color: #666;
+   max-width: 800px;
+   margin: 0 auto 20px;
+}
+/* Why Choose Section */
+.why-choose {
+   background-color: #fff;
+   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+}
+.why-choose h2 {
+   font-size: 2.2em;
+   color: #3b2a2a;
+   margin-bottom: 1em;
+}
+.why-choose p {
+   font-size: 1.2em;
+   color: #555;
+   max-width: 900px;
+   margin: 0 auto;
+}
+/* Motto Section */
+.motto {
+   background-color: #F5F5F5;
+   padding: 50px 20px;
+}
+.motto h3 {
+   font-size: 2em;
+   color: #3b2a2a;
+   margin-bottom: 0.5em;
+}
+.motto h2 {
+   font-size: 3.5em;
+   color: #D2B48C;
+   font-weight: bold;
+}
+/* Testimonials Section */
+.testimonials {
+   background-color: #F1E9D2;
+   padding: 50px;
+}
+.testimonial {
+   margin: 20px;
+   background-color: #E0C5A4;
+   padding: 20px;
+   border-radius: 15px;
+   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.testimonial span {
+   display: block;
+   margin-top: 15px;
+   font-weight: bold;
+   color: #3E2C41;
+}
+/* Footer Styles */
+footer {
+   background-color: #3b2a2a;
+   color: #fff;
+   text-align: center;
+   padding: 20px;
+   margin-top: 40px;
+}
+footer p {
+   font-size: 1em;
+}
+/* Responsive Design for Mobile */
+@media (max-width: 768px) {
+   header h1 {
+       font-size: 3em;
+   }
+   header p {
+       font-size: 1.2em;
+   }
+   .cta-button {
+       padding: 12px 20px;
+       font-size: 1em;
+   }
+   section h2 {
+       font-size: 2em;
+   }
+   .why-choose h2 {
+       font-size: 2em;
+   }
+   .motto h2 {
+       font-size: 3em;
+   }
+}
+/* General Reset and Body Styles */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Arial', sans-serif;
+
+    background-color: #f4f4f4;
+
+    color: #333;
+
+    line-height: 1.6;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+/* Header Styles */
+
+.signup-header {
+
+    background: linear-gradient(135deg, #D2B48C, #F5F5F5);
+
+    color: #3b2a2a;
+
+    text-align: center;
+
+    padding: 50px 20px;
+
+}
+
+.signup-header h1 {
+
+    font-size: 3.5em;
+
+    text-transform: uppercase;
+
+}
+
+.signup-header p {
+
+    font-size: 1.4em;
+
+    margin-top: 10px;
+
+}
+
+/* Form Styles */
+
+.signup-form {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    padding: 40px 20px;
+
+    background-color: white;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+    border-radius: 10px;
+
+}
+
+.form-group {
+
+    margin-bottom: 20px;
+
+}
+
+label {
+
+    font-size: 1.1em;
+
+    color: #3b2a2a;
+
+    display: block;
+
+    margin-bottom: 5px;
+
+}
+
+input {
+
+    width: 100%;
+
+    padding: 10px;
+
+    font-size: 1em;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+    margin-top: 5px;
+
+}
+
+button.cta-button {
+
+    background-color: #3b2a2a;
+
+    color: white;
+
+    padding: 15px 25px;
+
+    font-size: 1.2em;
+
+    border-radius: 5px;
+
+    text-transform: uppercase;
+
+    width: 100%;
+
+    margin-top: 20px;
+
+    cursor: pointer;
+
+    transition: background-color 0.3s ease;
+
+}
+
+button.cta-button:hover {
+
+    background-color: #F1B56B;
+
+}
+
+/* Footer Styles */
+
+.signup-footer {
+
+    text-align: center;
+
+    margin-top: 20px;
+
+    color: #666;
+
+}
+
+.signup-footer a {
+
+    color: #3b2a2a;
+
+    text-decoration: none;
+
+}
+
+.signup-footer a:hover {
+
+    text-decoration: underline;
+
+}
+
+/* Error and Success Messages */
+
+.error-message {
+
+    color: red;
+
+    text-align: center;
+
+    font-size: 1.2em;
+
+    margin-top: 20px;
+
+}
+
+.success-message {
+
+    color: green;
+
+    text-align: center;
+
+    font-size: 1.2em;
+
+    margin-top: 20px;
+
+} 
+/* Login Page Styles */
+
+.login-section {
+
+    background-color: #fff;
+
+    padding: 40px 20px;
+
+    text-align: center;
+
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+
+    margin: 40px auto;
+
+    max-width: 500px;
+
+}
+
+.login-section h2 {
+
+    font-size: 2.5em;
+
+    color: #3b2a2a;
+
+    margin-bottom: 20px;
+
+}
+
+.login-section p {
+
+    font-size: 1.2em;
+
+    color: #666;
+
+    margin-bottom: 20px;
+
+}
+
+.login-section .form-group {
+
+    margin-bottom: 20px;
+
+    text-align: left;
+
+}
+
+.login-section label {
+
+    font-size: 1.2em;
+
+    color: #3b2a2a;
+
+}
+
+.login-section input {
+
+    width: 100%;
+
+    padding: 10px;
+
+    margin-top: 5px;
+
+    font-size: 1em;
+
+    border: 1px solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+.login-section button {
+
+    background-color: #3b2a2a;
+
+    color: #fff;
+
+    padding: 15px 25px;
+
+    font-size: 1.2em;
+
+    border-radius: 5px;
+
+    text-transform: uppercase;
+
+    margin-top: 20px;
+
+    transition: background-color 0.3s ease;
+
+}
+
+.login-section button:hover {
+
+    background-color: #f1b56b;
+
+}
+
+footer {
+
+    background-color: #3b2a2a;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 20px;
+
+} 
+/* Tribe Welcome Page Styles */
+
+.tribe-welcome {
+
+    background-color: #fff;
+
+    padding: 60px 20px;
+
+    text-align: center;
+
+    max-width: 800px;
+
+    margin: 40px auto;
+
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+
+}
+
+.tribe-welcome h2 {
+
+    font-size: 2.5em;
+
+    color: #3b2a2a;
+
+    margin-bottom: 20px;
+
+}
+
+.tribe-welcome p {
+
+    font-size: 1.2em;
+
+    color: #666;
+
+    margin-bottom: 30px;
+
+}
+
+.benefits {
+
+    text-align: left;
+
+    margin: 0 auto;
+
+    max-width: 700px;
+
+}
+
+.benefits h3 {
+
+    font-size: 2em;
+
+    color: #3b2a2a;
+
+    margin-bottom: 20px;
+
+}
+
+.benefits ul {
+
+    list-style-type: none;
+
+    padding: 0;
+
+}
+
+.benefits li {
+
+    font-size: 1.2em;
+
+    color: #555;
+
+    margin-bottom: 15px;
+
+}
+
+.cta-button {
+
+    background-color: #3b2a2a;
+
+    color: #fff;
+
+    padding: 15px 25px;
+
+    font-size: 1.2em;
+
+    border-radius: 5px;
+
+    text-transform: uppercase;
+
+    margin-top: 20px;
+
+    transition: background-color 0.3s ease;
+
+}
+
+.cta-button a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+.cta-button:hover {
+
+    background-color: #f1b56b;
+
+}
+
+footer {
+
+    background-color: #3b2a2a;
+
+    color: #fff;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 40px;
+
+} 
