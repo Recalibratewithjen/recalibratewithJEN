@@ -5,40 +5,71 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Complete Payment - Recalibrate with Jen</title>
 <link rel="stylesheet" href="style.css">
+<style>
+
+        /* Button Styling */
+
+        .payment-button {
+
+            background-color: #3b2a2a; /* Dark brown background */
+
+            color: white; /* White text */
+
+            padding: 15px 30px; /* Padding around the text */
+
+            font-size: 1.5em; /* Bigger font size */
+
+            text-align: center; /* Center the text */
+
+            border-radius: 10px; /* Rounded corners */
+
+            text-decoration: none; /* Remove underline */
+
+            display: inline-block; /* Align inline with other elements */
+
+            margin-top: 20px;
+
+            transition: background-color 0.3s ease; /* Smooth transition on hover */
+
+        }
+
+        .payment-button:hover {
+
+            background-color: #f1b56b; /* Lighter brown on hover */
+
+        }
+</style>
 </head>
 <body>
 <header>
 <h1>Recalibrate with Jen</h1>
-<p>Complete your payment to join the live sessions.</p>
+<p>Complete your payment to access the live sessions.</p>
 </header>
 <section class="payment-section">
 <h2>You're Just One Step Away from Joining Live!</h2>
-<p>Please complete your payment of <strong>R60.00</strong> to access the 5AM live resistance band sessions and become part of the tribe!</p>
-<p class="payment-info">
-
-            This payment is honestly to help you grow stronger, more focused, and more disciplined, not a scam for money.
-</p>
-<!-- PayFast Payment Form -->
+<p>Please complete your payment of <strong>R60.00</strong> to access the 5AM live resistance band sessions and become part of the Recalibrate tribe.</p>
+<p>This payment is honestly to help you grow stronger, more focused, and more disciplined. It’s not a scam for money.</p>
+<!-- Yoco Payment Button for testing -->
+<a href="https://www.yoco.com/your_payment_link_here" target="_blank" class="payment-button">Complete Payment via Yoco</a>
+<!-- Placeholder for PayFast (commented out) -->
+<!-- 
 <form action="https://www.payfast.co.za/eng/process" method="POST">
-<!-- Merchant details -->
-<input type="hidden" name="merchant_id" value="29113369">
-<input type="hidden" name="merchant_key" value="adxvokevaobyy">
-<!-- Payment details -->
-<input type="hidden" name="amount" value="60.00"> <!-- Amount in R -->
+<input type="hidden" name="merchant_id" value="YOUR_PAYFAST_MERCHANT_ID">
+<input type="hidden" name="merchant_key" value="YOUR_PAYFAST_MERCHANT_KEY">
+<input type="hidden" name="amount" value="60.00">
 <input type="hidden" name="item_name" value="Recalibrate with Jen Live Access">
 <input type="hidden" name="item_description" value="Live resistance band training with Jen.">
-<!-- Redirect URLs -->
 <input type="hidden" name="return_url" value="http://yourwebsite.com/success.html">
 <input type="hidden" name="cancel_url" value="http://yourwebsite.com/canceled.html">
-<input type="hidden" name="decline_url" value="http://yourwebsite.com/declined.html">
-<!-- Customer details -->
-<input type="hidden" name="email_address" value="user@example.com"> <!-- Use the actual user's email -->
-<!-- Submit button -->
-<button type="submit" class="cta-button">Proceed to Payment</button>
+<input type="hidden" name="notify_url" value="http://yourwebsite.com/payment-notify.php">
+<input type="submit" class="payment-button" value="Proceed to PayFast">
 </form>
+
+        -->
+<p>If the payment is successful, you’ll be redirected to the live stream page. Thank you for being a part of our tribe!</p>
 </section>
 <footer>
-<p>&copy; 2025 Recalibrate with Jen. All Rights Reserved.</p>
+<p>&copy; 2025 Recalibrate with Jen. All rights reserved.</p>
 </footer>
 </body>
 </html> 
